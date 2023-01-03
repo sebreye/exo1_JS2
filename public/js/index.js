@@ -68,3 +68,23 @@ function capitalize(str) {
     let capitalized = str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
     console.log(capitalized);
 }  
+
+function calcul(nbr1, operator, nbr2){
+    switch (operator) {
+        case "+":
+            console.log(nbr1 + nbr2);
+            break;
+            case "-":
+            console.log(nbr1 - nbr2);
+            break;
+            case "*":
+            console.log(nbr1 * nbr2);
+            break;
+            case "/":
+            console.log(nbr1 / nbr2);
+            break;
+        default:
+            console.log("Error 404");
+            break;
+    }
+}
