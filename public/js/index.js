@@ -7,6 +7,11 @@ let mod = modulo(10, 3)
 let rac = racine(16)
 let expos = expo(5, 2)
 capitalize("salut tout le monde")
+calcul(2, "+", 3); 
+calcul(5, "-", 3); 
+calcul(10, "*", 5); 
+calcul(15, "/", 3); 
+calcul(20, "%", 3);
 
 console.log(som);
 console.log(soust);
